@@ -13,6 +13,12 @@ builder.Services.AddSingleton<EmpleadoData>();
 
 builder.Services.AddSingleton<ProductoData>();
 
+builder.Services.AddSingleton<ProvedorData>();
+
+builder.Services.AddSingleton<EquipoComputoData>();
+
+
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("NuevaPolitica", app =>
